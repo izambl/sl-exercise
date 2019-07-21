@@ -10,5 +10,13 @@
   },
   "plugins": [
     "babel"
+  ],
+  "overrides": [
+    {
+      "files": ["src/**/*.test.js?(x)"],
+      "env": {
+        "jest": true
+      }
+    }
   ]
 }
