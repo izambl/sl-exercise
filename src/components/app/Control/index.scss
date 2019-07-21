@@ -1,0 +1,13 @@
+.control {
+  font-size: 1.5rem;
+  overflow: auto;
+  flex: 1 1 auto;
+
+  .character-frequency {
+    .character {
+      display: inline-block;
+      width: 2em;
+      font-weight: bold;
+    }
+  }
+}

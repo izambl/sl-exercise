@@ -1,9 +1,16 @@
-.person-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  li {
+.people {
+  overflow: auto;
+  flex: 1 1 auto;
+  header {
+    font-size: 4rem;
+  }
+  ul {
     margin: 0;
     padding: 0;
+    list-style: none;
+    li {
+      margin: 0;
+      padding: 0;
+    }
   }
 }

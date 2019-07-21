@@ -10,7 +10,7 @@ import './index.scss';
 
 export class People extends Component {
   static renderLoading() {
-    return <p>Loading people...</p>
+    return <p>Loading people...</p>;
   }
 
   componentDidMount() {
@@ -44,9 +44,12 @@ export class People extends Component {
     }
 
     return (
-      <ul className="person-list">
-        {people.map(person => <Person key={person.id} {...person} />)}
-      </ul>
+      <section className="people">
+        <header>People list</header>
+        <ul>
+          {people.map(person => <Person key={person.id} {...person} />)}
+        </ul>
+      </section>
     );
   }
 }
