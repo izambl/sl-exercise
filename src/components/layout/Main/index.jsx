@@ -2,10 +2,12 @@ import React from 'react';
 
 import './index.scss';
 
+import PeopleComponent from '../../app/People';
+
 function Main() {
   return (
     <main className="container">
-      <h1>Hello World!</h1>
+      <PeopleComponent />
     </main>
   );
 }
