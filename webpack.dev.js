@@ -41,6 +41,14 @@ module.exports = {
         },
         loader: 'babel-loader',
       },
+      {
+        test: /\.s?css$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          'sass-loader',
+        ],
+      },
     ],
   },
   resolve: {
@@ -49,7 +57,7 @@ module.exports = {
       path.resolve('./src'),
       path.resolve('./'),
     ],
-    extensions: ['.jsx', '.js'],
+    extensions: ['.jsx', '.js', '.css', '.scss'],
   },
   plugins,
   devServer: {

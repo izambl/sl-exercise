@@ -4,9 +4,14 @@ import { Provider } from 'react-redux';
 
 import store from './redux/store';
 
+import 'normalize.css';
+import './styles/app.scss';
+
 ReactDOM.render(
   <Provider store={store}>
-    <h1>Hello World!</h1>
+    <div className="container">
+      <h1>Hello World!</h1>
+    </div>
   </Provider>,
-  document.getElementById('sales-loft-app'),
+  document.getElementById('salesloft-app'),
 );

@@ -1,0 +1,15 @@
+@import 'variables';
+@import 'layout';
+
+html {
+  font-size: 62.5%; // Sets base font size to 10px. to easier rem calculations
+}
+
+#salesloft-app {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  min-height: 100vh;
+  background-color: $color-bg-main;
+  color: #FFFFFF;
+}
