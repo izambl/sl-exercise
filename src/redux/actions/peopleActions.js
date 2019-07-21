@@ -9,7 +9,7 @@ export function loadPeople() {
 
     services.getPeople()
       .then((response) => {
-        dispatch({ type: GET_PEOPLE_SUCCESS, people: response.data.data });
+        dispatch({ type: GET_PEOPLE_SUCCESS, people: response.data });
       })
       .catch(() => dispatch({ type: GET_PEOPLE_FAILURE, error: 'unknown error' }));
   };

@@ -1,5 +1,11 @@
 import client from '../authClient';
 
-export const getPeople = () => client.get('/people.json');
+import data from '../data.json';
+
+// export const getPeople = () => client.get('/people.json');
+
+export const getPeople = () => {
+  return Promise.resolve(data);
+};
 
 export default getPeople;
