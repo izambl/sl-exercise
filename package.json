@@ -7,5 +7,11 @@
     "frontend"
   ],
   "author": "Ismael Barragán López <ismael@mabkil.com>",
-  "license": "No license"
+  "license": "No license",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-polyfill": "^6.26.0"
+  }
 }
