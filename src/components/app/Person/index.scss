@@ -1,0 +1,12 @@
+.person {
+  display: block;
+  box-sizing: border-box;
+  font-size: 1.75rem;
+  margin: 1.5rem 0;
+  .name {
+    font-weight: bold;
+  }
+  .email {
+    font-style: italic;
+  }
+}
