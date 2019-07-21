@@ -14,4 +14,9 @@ const store = createStore(
   applyMiddleware(...middleWare),
 );
 
+if (process.env.MODE === 'development') {
+  // In development mode exposes store to global object to facilitate debugging
+  window.store = store;
+}
+
 export default store;
