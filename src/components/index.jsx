@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Header, Main, Footer } from './App/layout';
+import { Header, Main, Footer } from './layout';
 
 function SalesloftApp() {
   return (

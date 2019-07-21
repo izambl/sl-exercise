@@ -7,7 +7,7 @@ import store from './redux/store';
 import 'normalize.css';
 import './styles/app.scss';
 
-import { Footer, Header, Main } from './components/App/layout';
+import { Footer, Header, Main } from './components/layout';
 
 ReactDOM.render(
   <Provider store={store}>
