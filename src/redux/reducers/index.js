@@ -1,5 +1,7 @@
-export default (state = {}, action) => {
-  switch (action.type) {
-    default: return { ...state };
-  }
-};
+import { combineReducers } from 'redux';
+
+import user from './userReducer';
+
+export default combineReducers({
+  user,
+});

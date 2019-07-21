@@ -1,0 +1,6 @@
+// API key should be retrieved from another service letting the user to authenticate
+export const initialState = {
+  apiKey: process.env.API_KEY,
+};
+
+export default (state = initialState) => ({ ...state });
