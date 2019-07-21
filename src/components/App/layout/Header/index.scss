@@ -1,0 +1,14 @@
+#header {
+  display: flex;
+  box-sizing: border-box;
+  flex-flow: column nowrap;
+  flex: 0 0 4rem;
+  line-height: 4rem;
+  text-align: center;
+  font-weight: bold;
+  background-color: #FFFFFF;
+  color: #333333;
+  font-size: 2rem;
+  box-shadow: 1px 1px 2px #000000;
+  z-index: 1000;
+}

@@ -7,11 +7,15 @@ import store from './redux/store';
 import 'normalize.css';
 import './styles/app.scss';
 
+import { Footer, Header, Main } from './components/App/layout';
+
 ReactDOM.render(
   <Provider store={store}>
-    <div className="container">
-      <h1>Hello World!</h1>
-    </div>
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
   </Provider>,
   document.getElementById('salesloft-app'),
 );
