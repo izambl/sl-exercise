@@ -11,7 +11,7 @@ export function loadPeople() {
       .then((response) => {
         dispatch({ type: GET_PEOPLE_SUCCESS, people: response.data.data });
       })
-      .catch(() => dispatch({ type: GET_PEOPLE_FAILURE }));
+      .catch(() => dispatch({ type: GET_PEOPLE_FAILURE, error: 'unknown error' }));
   };
 }
 
