@@ -1,0 +1,11 @@
+{
+  "name": "salesloft-challenge",
+  "version": "1.0.0",
+  "description": "Interview challenge",
+  "scripts": {},
+  "keywords": [
+    "frontend"
+  ],
+  "author": "Ismael Barragán López <ismael@mabkil.com>",
+  "license": "No license"
+}
