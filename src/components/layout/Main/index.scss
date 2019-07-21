@@ -3,6 +3,7 @@
 main {
   display: flex;
   flex-flow: row nowrap;
-  flex: 1 0 100%;
+  flex: 1 1 auto;
   background-color: $color-bg-main;
+  overflow: auto;
 }

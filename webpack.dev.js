@@ -63,7 +63,6 @@ module.exports = {
   devServer: {
     port: 9090,
     hot: true,
-    headers: { 'Access-Control-Allow-Origin': '*' },
     historyApiFallback: true,
   },
 };

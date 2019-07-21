@@ -10,6 +10,7 @@ html {
   flex-flow: column nowrap;
   align-items: center;
   min-height: 100vh;
+  max-height: 100vh;
   background-color: $color-bg-main;
   color: #FFFFFF;
 }
