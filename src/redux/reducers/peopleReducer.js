@@ -5,9 +5,9 @@ import {
 } from '../actions/peopleActionTypes';
 
 export const initialState = {
-  people: [],
-  loading: false,
-  lastError: null,
+  people: [], // Array of loaded people objects
+  loading: false, // True when people is being loaded
+  lastError: null, // Last server error, if any, is stored here
 };
 
 function peopleReducer(state = initialState, action) {

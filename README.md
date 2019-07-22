@@ -38,6 +38,7 @@ npm run lint:fix
 ## How to run
 After configuring env variables
 
+Local api server should be running to prevent cors errors during development
 ```
 npm run server
 ```

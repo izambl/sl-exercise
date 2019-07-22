@@ -11,11 +11,9 @@ import { Footer, Header, Main } from './components/layout';
 
 ReactDOM.render(
   <Provider store={store}>
-    <>
-      <Header />
-      <Main />
-      <Footer />
-    </>
+    <Header />
+    <Main />
+    <Footer />
   </Provider>,
   document.getElementById('salesloft-app'),
 );
