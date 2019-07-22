@@ -2,7 +2,7 @@ import axios from 'axios';
 import store from '../redux/store';
 
 const defaultOptions = {
-  baseURL: `${process.env.API_HOST}/${process.env.API_VERSION}`,
+  baseURL: 'http://127.0.0.1:3000',
   headers: {
     Authorization: `Bearer ${store.getState().user.apiKey}`,
     'Content-Type': 'application/json',
