@@ -3,9 +3,26 @@
 ## Scripts
 
 To start your aplication locally
-
 ```
-$ npm run dev
+npm run dev
+```
+
+To run test
+```
+npm run test
+```
+or (to calculate coverage)
+```
+npm run test:coverage
+```
+
+To run linter
+```
+npm run lint
+```
+To try to fix simple linter offenses
+```
+npm run lint:fix
 ```
 
 ## Configuration
