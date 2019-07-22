@@ -47,7 +47,7 @@ export class People extends Component {
       <section className="people">
         <header>People list</header>
         <ul>
-          {people.map(person => <Person key={person.id} {...person} />)}
+          {people.map(person => <li key={person.id}><Person {...person} /></li>)}
         </ul>
       </section>
     );
