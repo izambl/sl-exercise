@@ -2,12 +2,22 @@
   font-size: 1.5rem;
   overflow: auto;
   flex: 1 1 auto;
-
+  header {
+    font-size: 4rem;
+    border-bottom: 1px solid #EEEEEE;
+  }
   .character-frequency {
     .character {
       display: inline-block;
       width: 2em;
       font-weight: bold;
+    }
+  }
+  .duplicates {
+    font-size: 1.8rem;
+    .duplicate {
+      margin: 10px 0;
+      font-style: italic;
     }
   }
 }

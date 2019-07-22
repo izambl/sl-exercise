@@ -76,10 +76,10 @@ class Control extends Component {
     const { duplicates } = this.state;
 
     return Object.keys(duplicates).map(duplicate => (
-      <div key={duplicate}>
-        <span>{duplicate}</span>
+      <div key={duplicate} className="duplicate">
+        <div>{duplicate}</div>
         may be a duplicate of
-        <span>{duplicates[duplicate]}</span>
+        <div>{duplicates[duplicate]}</div>
       </div>
     ));
   }
@@ -87,12 +87,14 @@ class Control extends Component {
   render() {
     return (
       <section className="control">
-        <header><h1>Control panel</h1></header>
+        <header>Control panel</header>
         <button type="button" onClick={this.generateCount}>Frequency count</button>
         <button type="button" onClick={this.findDuplicates}>Find duplicates</button>
         <hr />
         {this.renderCounts()}
-        {this.renderDuplicates()}
+        <div className="duplicates">
+          {this.renderDuplicates()}
+        </div>
       </section>
     );
   }

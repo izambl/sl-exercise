@@ -1,8 +1,10 @@
 .people {
+  display: block;
   overflow: auto;
   flex: 1 1 auto;
   header {
     font-size: 4rem;
+    border-bottom: 1px solid #EEEEEE;
   }
   ul {
     margin: 0;
